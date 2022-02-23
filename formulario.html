@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+  </head>
+  <body>
+    <h2>Login</h2>
+    <form action="GET">
+      <div>
+        <label>E-mail: </label>
+        <input type="email" placeholder="Digite o seu e-mail" name="email" />
+      </div>
+
+      <div>
+        <label>Senha: </label>
+        <input type="password" placeholder="Digite a sua senha" name="senha" />
+      </div>
+      <div><input type="submit" value="Logar" /></div>
+    </form>
+
+    <h2>Cadastro</h2>
+    <form>
+      <div>
+        <label>Nome: </label>
+        <input type="text" placeholder="Digite o seu nome" name="nome" />
+      </div>
+      <div>
+        <label>Sobrenome: </label>
+        <input
+          type="text"
+          placeholder="Digite o seu sobrenome"
+          name="sobrenome"
+        />
+      </div>
+      <div>
+        <label>Data de Nascimento: </label>
+        <input type="date" name="idade" />
+      </div>
+      <div>
+        <label>E-mail: </label>
+        <input type="email" placeholder="Digite o seu e-mail" name="email" />
+      </div>
+      <div>
+        <label>Senha: </label>
+        <input type="password" placeholder="Digite a sua senha" name="senha" />
+      </div>
+      <div>
+        <label>Confirmar Senha: </label>
+        <input
+          type="password"
+          placeholder="Confirme a sua senha"
+          name="confirmarsenha"
+        />
+      </div>
+      <div>
+        <label>Masculino</label>
+        <input type="radio" value="Masculino" name="sexo" />
+      </div>
+      <div>
+        <label>Feminino</label>
+        <input type="radio" value="Feminino" name="sexo" />
+      </div>
+      <div>
+        <label>Estado: </label>
+        <select name="estado">
+          <option value="SP">SP</option>
+          <option value="MG">MG</option>
+          <option value="SC">SC</option>
+          <option value="RJ">RJ</option>
+        </select>
+      </div>
+      <div>
+        <label>Observações: </label>
+        <textarea> </textarea>
+      </div>
+      <div>
+        <input type="checkbox" name="confirmar" />
+        <label>Aceito os termos de condições!</label>
+      </div>
+      <div><input type="submit" value="Cadastrar" /></div>
+    </form>
+  </body>
+</html>
