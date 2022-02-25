@@ -1,0 +1,22 @@
+/* Conteúdo para estilos de texto -> https://www.w3schools.com/cssref/pr_font_font.asp */
+
+.negrito {
+    /* normal, bold, 100 até 900 */
+    font-weight: 900;
+}
+
+.italico {
+    font-style: italic;
+}
+
+.formatacao1 {
+    text-decoration: underline;
+}
+
+.formatacao2 {
+    text-decoration: overline;
+}
+
+.formatacao3 {
+    text-decoration: line-through;
+}
