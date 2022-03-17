@@ -1,0 +1,10 @@
+body {
+    background-image: url('/images/yoshi.png');
+    /*repeat, no-repeat, repeat-y, repeat-x */
+    background-repeat: no-repeat;
+    /*scroll ou fixed */
+    background-attachment: fixed;
+    /* primeiro valor: left, center, right
+    segundo valor: top, center, bottom */
+    background-position: center bottom;
+}
